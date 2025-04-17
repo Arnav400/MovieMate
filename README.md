@@ -2,7 +2,7 @@
 
 **MovieMate** is a modern, responsive movie directory application built with React, Vite, and Tailwind CSS. Powered by the TMDB (The Movie Database) API, MovieMate allows users to browse movies, view detailed information, and discover new cinematic favorites. Whether you're a movie enthusiast or just looking for your next watch, MovieMate offers a fast and intuitive experience.
 
-Live Demo: [Deployed and Live](https://astonishing-paprenjak-73ee11.netlify.app/)
+Live Demo: [Click here to Go to the Site](https://astonishing-paprenjak-73ee11.netlify.app/)
 
 ## Features
 
