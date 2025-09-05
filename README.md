@@ -22,7 +22,9 @@ Live Demo: [Click Me](https://moivemateee.netlify.app/)
 - **Backend (Optional)**: Appwrite 17.0.0
 - **Utilities**: React-Use 17.6.0
 - **Linting**: ESLint 9.17.0 with React, React Hooks, and React Refresh plugins
-- **Deployment**: GitHub Pages (via `gh-pages` 6.3.0)
+- **Deployment**: Hosted on Netlify
+
+  
 
 ## Prerequisites
 
@@ -114,36 +116,17 @@ MovieMate/
 ## Usage
 1. Launch the app with `npm run dev`.
 2. Browse the movie catalog fetched from TMDB.
-3. Click a movie to view its details.
+3. View movie cards with key details at a glance.
 4. Enjoy the clean, responsive UI styled with Tailwind CSS.
 
 ---
 
 ## Deployment
-MovieMate is pre-configured for GitHub Pages deployment:
+MovieMate is deployed on Netlify
 
-### 1. Set Homepage
-Update the `homepage` field in `package.json` to your GitHub Pages URL:
-```json
-"homepage": "https://yourusername.github.io/MovieMate"
-```
-
-### 2. Deploy
-```bash
-npm run deploy
-```
-- The app will be built and pushed to the `gh-pages` branch.
-- Verify: Visit your GitHub Pages URL (e.g., `https://yourusername.github.io/MovieMate`).
-
-For other hosting platforms, upload the contents of the `dist` folder after running `npm run build`.
 
 ---
 
-## Troubleshooting
-- **API Key Issues**: Ensure your TMDB API key is correctly set in `.env` and that it’s not expired.
-- **Build Errors**: Run `npm install` again to ensure all dependencies are installed.
-- **CORS Errors**: If fetching TMDB data fails, verify your API key and network settings.
-- **Deployment Fails**: Check your GitHub Pages settings and ensure the `gh-pages` branch is correctly configured.
 
 ---
 
@@ -154,28 +137,8 @@ For other hosting platforms, upload the contents of the `dist` folder after runn
 ✔ Add support for TV shows from TMDB.
 ✔ Enhance accessibility (a11y) compliance.
 
----
 
-## Contributing
-We welcome contributions! To get started:
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add your feature"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. Open a Pull Request.
 
-**Please adhere to the ESLint rules in `eslint.config.js` and include a description of your changes.**
-
----
 
 ## License
 This project is licensed under the MIT License.
