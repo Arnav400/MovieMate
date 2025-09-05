@@ -7,7 +7,7 @@ Live Demo: [Click Me](https://moivemateee.netlify.app/)
 ## Features
 
 - **Movie Exploration**: Browse popular, trending, and upcoming movies from the TMDB API.
-- **Detailed Views**: Access movie details like synopsis, release date, ratings, and posters.
+- **Detailed Views**: Access movie details like language, release date, ratings, and posters.
 - **Responsive Design**: Enjoy a seamless experience across desktop, tablet, and mobile devices with Tailwind CSS.
 - **Fast Development**: Built with Vite for lightning-fast builds and hot module replacement (HMR).
 - **Optional Backend**: Integrates with Appwrite for user authentication and data persistence (optional).
